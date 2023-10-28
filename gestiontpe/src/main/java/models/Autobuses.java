@@ -1,5 +1,6 @@
 package models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -13,12 +14,19 @@ public class Autobuses {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+
+    @Column
     private String placa;
+
+    @Column
     private int modelo;
+
+    public Autobuses(){
+        
+    }
     
 
-    public Autobuses(int id, String placa, int modelo) {
-        this.id = id;
+    public Autobuses(String placa, int modelo) {
         this.placa = placa;
         this.modelo = modelo;
     }
