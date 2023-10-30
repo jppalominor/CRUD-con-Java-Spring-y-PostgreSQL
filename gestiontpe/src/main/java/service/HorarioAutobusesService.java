@@ -27,7 +27,7 @@ public class HorarioAutobusesService {
         return horarioAutobusesRepository.findById(id);
     }
 
-    public Void delete(HorarioAutobuses horario_autobus){
+    public void delete(HorarioAutobuses horario_autobus){
         horarioAutobusesRepository.delete(horario_autobus);
     }
 }
