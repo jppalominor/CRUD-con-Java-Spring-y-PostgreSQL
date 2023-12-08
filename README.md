@@ -1,3 +1,2 @@
-# tabd_202302_ex03
-
-En este repositorio se adjuntan los archivos relacionados con la solución del examen 3 de tópicos avanzados en bases de datos
+Crud desarrollado con Java, Spring y PostgreSQL. En el cual se tiene un crud para realizar las operaciones en la base de datos la cual
+cuenta con la información de utilización de Autobuses y Cargadores del transporte publico electrico de Medellin. (La información no es real, es un supuesto)
